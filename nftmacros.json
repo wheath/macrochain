@@ -1,0 +1,24 @@
+[
+  {
+    "tokenId": "1",
+    "data": {
+      "name": "macros",
+      "description": "diet macros in grams",
+      "edition": "1",
+      "attributes": [
+        {
+          "trait_type": "fat",
+          "value": "25 grams"
+        },
+        {
+          "trait_type": "protein",
+          "value": "65 grams"
+        },
+        {
+          "trait_type": "carbohydrates",
+          "value": "95 grams"
+        }
+      ]
+    }
+  }
+]
