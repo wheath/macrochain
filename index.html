@@ -1,3 +1,22 @@
+<!doctype html>
+
 <html>
-  <body><h1>Welcome to macrochain</h1></body>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+    <script src="https://unpkg.com/@vechain/connex@2"></script>
+  </head>
+  
+  <body>
+    <h1>Welcome to Macrochain</h1>
+    <form>
+      <label for="walletaddr">Wallet Address:</label>
+      <input type="text" id="walletaddr" name="walletaddr"><br>
+      <label for="ismacros">Macro Compliant:</label>
+      <input type="checkbox" id="ismacros" name="ismacros" value="Macro Compliant"><br>
+      <input type="submit" value="Submit Order">
+      </form>
+    <div id="blockNumber"></div>
+<div id="status"></div>
+  </body>
 </html>
